@@ -352,7 +352,7 @@ app
       startupCheck.printStartupCheckStatus(
         StartupCheckStatus.WARNING,
         "Hubble Monitoring is disabled",
-        "https://www.thehubble.xyz/intro/install.html#monitoring-hubble",
+        "https://www.thehubble.xyz/intro/monitoring.html",
       );
       logger.info({}, "No statsd server specified. Statsd disabled");
     }
